@@ -1,0 +1,8 @@
+2015 12 12	1
+61
+346
+
+#include <stdio.h>
+
+int isLeapYear(int year) {
+	if ((year % 4 == 0) && (year % 100 != 0) || (year % 40
